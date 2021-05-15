@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { BtcChart } from "../../../components";
-import BtcIcon from '../../../assets/btcicon.png'
+import BtcIcon from "../../../assets/btcicon.png";
 
 const TableRatingSection = () => {
   return (
@@ -58,11 +58,12 @@ const TableRatingSection = () => {
                         {1}
                       </td>
                       <td className="px-6 py-7 w-96 whitespace-nowrap text-sm font-medium text-gray-900">
-                        <div className="flex flex-row">
+                        <div className="flex items-center flex-row">
                           <img
-                            className=""
-                            src={require("../../../assets/btcicon.png")}
-                            height={40}
+                            className="h-11 mr-4"
+                            src={BtcIcon}
+                            // height={null}
+                            alt="btc"
                           />
                           <span>Bitcoin</span>
                         </div>
