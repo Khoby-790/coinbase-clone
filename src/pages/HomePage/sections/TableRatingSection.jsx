@@ -82,7 +82,7 @@ const TableRatingSection = () => {
                           href="#"
                           className=" bg-green-500 p-2 outline-none focus:outline-none  text-white rounded-sm"
                         >
-                          Edit
+                          Buy
                         </button>
                       </td>
                     </tr>
@@ -115,7 +115,7 @@ const TableRatingSection = () => {
                           href="#"
                           className=" bg-green-500 p-2 outline-none focus:outline-none text-white rounded-sm"
                         >
-                          Edit
+                          Buy
                         </button>
                       </td>
                     </tr>
