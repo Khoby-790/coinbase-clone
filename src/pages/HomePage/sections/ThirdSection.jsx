@@ -3,7 +3,7 @@ import React from "react";
 const ThirdSection = () => {
   return (
     <div className="w-full flex py-4 items-center justify-center">
-      <div className="w-2/3 flex">
+      <div className="w-4/5 flex">
         <div className="flex-1 flex flex-col justify-center">
           <h1 className="text-3xl font-medium">Earn up to $28 worth</h1>
           <h1 className="text-3xl font-medium">of crypto</h1>
@@ -57,10 +57,10 @@ const HoverCard = ({ src, name, slug, gain }) => {
     <div className="bg-white p-3 my-2 justify-between flex hover:shadow-md rounded-md">
       <div className="w-auto flex">
         <img src={src} alt="SKALE" className="mr-4"></img>
-        <span className="text-3xl mr-4">{name}</span>
+        <span className="text-2xl mr-4">{name}</span>
         <span>{slug}</span>
       </div>
-      <div>
+      <div className="w-11">
         <span className="font-medium text-green-400 text-xl">
           Earn ${gain} {slug}
         </span>
