@@ -15,6 +15,7 @@ const ThirdSection = () => {
               Discover how specific cryptocurrencies work — and
             </p>
           </div>
+          <button className="bg-blue-600 px-3 font-bold">Start earning</button>
         </div>
         <div className="flex-1"></div>
       </div>
