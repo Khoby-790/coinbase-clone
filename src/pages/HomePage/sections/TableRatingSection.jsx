@@ -78,14 +78,16 @@ const TableRatingSection = () => {
                       <td className="px-6 py-7 whitespace-nowrap text-xl">
                         GHS 280,930.47
                       </td>
-                      <td className="px-6 py-7 whitespace-nowrap text-xl text-red-500">-1.8%</td>
+                      <td className="px-6 py-7 whitespace-nowrap text-xl text-red-500">
+                        -1.8%
+                      </td>
                       <td className="px-6 py-7 whitespace-nowrap text-sm text-gray-500">
-                          <BtcChart />
+                        <BtcChart />
                       </td>
                       <td className="px-6 py-7 whitespace-nowrap text-sm font-medium">
                         <button
                           href="#"
-                          className="text-indigo-600 bg-green-500 p-3 hover:text-indigo-900"
+                          className=" bg-green-500 p-2 text-white rounded-sm"
                         >
                           Edit
                         </button>
