@@ -3,7 +3,7 @@ import { Section } from "../../../components";
 
 const CryptocurrencyProfileSection = () => {
   return (
-    <Section>
+    <Section type="col">
       <div className="w-full my-4 flex flex-col items-center">
         <h1 className="text-4xl font-medium">
           Create your cryptocurrency portfolio today
@@ -13,6 +13,7 @@ const CryptocurrencyProfileSection = () => {
           start trading
         </span>
       </div>
+      <div className="w-full flex"></div>
     </Section>
   );
 };
