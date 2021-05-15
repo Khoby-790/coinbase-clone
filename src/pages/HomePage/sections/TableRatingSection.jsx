@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { BtcChart } from "../../../components";
@@ -73,7 +74,14 @@ const TableRatingSection = () => {
                         {1}
                       </td>
                       <td className="px-6 py-7 w-96 whitespace-nowrap text-sm font-medium text-gray-900">
-                        Bitcoin
+                        <div className="flex flex-row">
+                          <img
+                            className=""
+                            src={require("../../../assets/btcicon.png")}
+                            height={40}
+                          />
+                          <span>Bitcoin</span>
+                        </div>
                       </td>
                       <td className="px-6 py-7 whitespace-nowrap text-xl">
                         GHS 280,930.47
