@@ -41,7 +41,7 @@ const ThirdSection = () => {
             gain={3}
           />
           <HoverCard
-            src="https://static-assets.coinbase.com/earn/campaigns/the-graph/asset-logo.svg"
+            src="https://static-assets.coinbase.com/earn/campaigns/stellar/asset-logo.svg"
             name="Stellar Lumens"
             slug="XLM"
             gain={10}
