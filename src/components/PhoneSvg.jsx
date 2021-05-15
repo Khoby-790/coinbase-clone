@@ -5,7 +5,7 @@ function PhoneSvg() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="680"
-      height="956"
+      height="600"
       fill="none"
       className="HeroVariant__StyledMobileImage-sc-1o7093z-6 kGJGpi"
       viewBox="0 0 680 956"
