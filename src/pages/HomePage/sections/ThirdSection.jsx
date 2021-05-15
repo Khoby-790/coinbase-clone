@@ -8,14 +8,16 @@ const ThirdSection = () => {
           <h1 className="text-3xl font-medium">Earn up to $28 worth</h1>
           <h1 className="text-3xl font-medium">of crypto</h1>
           <div className="my-3">
-            <p className="font-thin text-sm">
+            <p className="font-thin text-lg">
               Discover how specific cryptocurrencies work — and
             </p>
-            <p className="font-thin text-sm">
-              Discover how specific cryptocurrencies work — and
+            <p className="font-thin text-lg">
+            get a bit of each crypto to try out for yourself.
             </p>
           </div>
-          <button className="bg-blue-600 px-3 font-bold">Start earning</button>
+          <button className="bg-blue-600 px-3 w-40 text-white py-3 font-bold outline-none focus:outline-none rounded-lg">
+            Start earning
+          </button>
         </div>
         <div className="flex-1"></div>
       </div>
