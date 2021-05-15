@@ -10,7 +10,7 @@ const HomePage = () => {
       <HeroSection />
       <TableRatingSection />
       <ThirdSection />
-      {/* <CryptocurrencyProfileSection /> */}
+      <CryptocurrencyProfileSection />
     </Fragment>
   );
 };
