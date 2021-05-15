@@ -20,13 +20,13 @@ const people = [
 const TableRatingSection = () => {
   return (
     <div className="w-full  flex justify-center">
-      <div className="w-2/3 p-4 bg-red-300">
+      <div className="w-2/3">
         <div className="flex flex-col">
           <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-              <div className="shadow overflow-hidden border-b border-gray-200">
+              <div className="shadow-lg overflow-hidden border-b border-gray-200">
                 <table className="min-w-full divide-y divide-gray-200">
-                  <thead className="bg-gray-50">
+                  <thead className="bg-white">
                     <tr>
                       <th
                         scope="col"
