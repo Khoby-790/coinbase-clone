@@ -32,7 +32,7 @@ const TableRatingSection = () => {
                         scope="col"
                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                       >
-                        Name
+                        #
                       </th>
                       <th
                         scope="col"
@@ -45,6 +45,18 @@ const TableRatingSection = () => {
                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                       >
                         Email
+                      </th>
+                      <th
+                        scope="col"
+                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      >
+                        Role
+                      </th>
+                      <th
+                        scope="col"
+                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      >
+                        Role
                       </th>
                       <th
                         scope="col"
@@ -65,6 +77,9 @@ const TableRatingSection = () => {
                           personIdx % 2 === 0 ? "bg-white" : "bg-gray-50"
                         }
                       >
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                          {personIdx + 1}
+                        </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                           {person.name}
                         </td>
