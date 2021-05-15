@@ -80,7 +80,7 @@ const TableRatingSection = () => {
                       <td className="px-6 py-7 whitespace-nowrap text-sm font-medium">
                         <button
                           href="#"
-                          className=" bg-green-500 p-2 text-white rounded-sm"
+                          className=" bg-green-500 p-2 outline-none focus:outline-none  text-white rounded-sm"
                         >
                           Edit
                         </button>
@@ -113,7 +113,7 @@ const TableRatingSection = () => {
                       <td className="px-6 py-7 whitespace-nowrap text-sm font-medium">
                         <button
                           href="#"
-                          className=" bg-green-500 p-2 text-white rounded-sm"
+                          className=" bg-green-500 p-2 outline-none focus:outline-none text-white rounded-sm"
                         >
                           Edit
                         </button>
