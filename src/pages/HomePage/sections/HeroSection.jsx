@@ -8,6 +8,7 @@ const HeroSection = () => {
       <div className="flex-1 flex h-full items-center justify-center bg-blue-800">
         <Link className="flex flex-row">
           <BtcSvg />
+          <span className="ml-2 text-blue-700">Jump start your portfolio</span>
         </Link>
       </div>
       <div className="flex-1 h-full flex justify-center items-center pt-10">
