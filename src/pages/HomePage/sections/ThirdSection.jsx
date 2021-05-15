@@ -12,14 +12,22 @@ const ThirdSection = () => {
               Discover how specific cryptocurrencies work — and
             </p>
             <p className="font-thin text-lg">
-            get a bit of each crypto to try out for yourself.
+              get a bit of each crypto to try out for yourself.
             </p>
           </div>
           <button className="bg-blue-600 px-3 w-40 text-white py-3 font-bold outline-none focus:outline-none rounded-lg">
             Start earning
           </button>
         </div>
-        <div className="flex-1"></div>
+        <div className="flex-1">
+          <div className="bg-white p-3">
+            <div className="w-auto">
+              <span>SKALE</span>
+              <span>SKL</span>
+            </div>
+            <div></div>
+          </div>
+        </div>
       </div>
     </div>
   );
