@@ -25,7 +25,7 @@ const ThirdSection = () => {
               <img
                 src="https://static-assets.coinbase.com/earn/campaigns/skale/asset-logo.svg"
                 alt="SKALE"
-                className="mr-2"
+                className="mr-4"
               ></img>
               <span className="text-3xl mr-4">SKALE</span>
               <span>SKL</span>
@@ -37,9 +37,14 @@ const ThirdSection = () => {
             </div>
           </div>
           <div className="bg-white p-3 my-2 justify-between flex hover:shadow-md rounded-md">
-            <div className="w-auto">
-              <span className="text-3xl mr-4">Ampleforth Governance Token</span>
-              <span>FORTH</span>
+            <div className="w-auto flex">
+              <img
+                src="https://static-assets.coinbase.com/earn/campaigns/ampleforth-governance-token/asset-logo.svg"
+                alt="SKALE"
+                className="mr-4"
+              ></img>
+              <span className="text-3xl mr-4">SKALE</span>
+              <span>SKL</span>
             </div>
             <div>
               <span className="font-medium text-green-400 text-xl">
