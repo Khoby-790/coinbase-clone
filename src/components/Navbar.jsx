@@ -3,7 +3,7 @@ import CoinbaseLogo from "./Coinbaselogo";
 
 const Navbar = () => {
   return (
-    <div className="bg-white flex flex-row">
+    <div className="bg-white flex w-screen absolute flex-row">
       <div className="w-96 p-3">
         <CoinbaseLogo />
       </div>
