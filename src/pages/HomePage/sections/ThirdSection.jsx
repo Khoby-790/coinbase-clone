@@ -20,12 +20,14 @@ const ThirdSection = () => {
           </button>
         </div>
         <div className="flex-1">
-          <div className="bg-white p-3 hover:shadow-md">
+          <div className="bg-white p-3 hover:shadow-md rounded-md">
             <div className="w-auto">
-              <span className="text-2xl mr-4">SKALE</span>
+              <span className="text-3xl mr-4">SKALE</span>
               <span>SKL</span>
             </div>
-            <div></div>
+            <div>
+              <span>Earn $3 SKL</span>
+            </div>
           </div>
         </div>
       </div>
