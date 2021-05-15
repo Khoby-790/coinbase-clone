@@ -47,7 +47,7 @@ const ThirdSection = () => {
             slug="XLM"
             gain={10}
           />
-          <div>
+          <div className="">
             <span className="font-medium text-blue-600">View more {">"}</span>
           </div>
         </div>
