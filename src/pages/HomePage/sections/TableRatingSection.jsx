@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { BtcChart } from "../../../components";
 
 const people = [
   {
@@ -78,7 +79,9 @@ const TableRatingSection = () => {
                         GHS 280,930.47
                       </td>
                       <td className="px-6 py-7 whitespace-nowrap text-xl text-red-500">-1.8%</td>
-                      <td className="px-6 py-7 whitespace-nowrap text-sm text-gray-500"></td>
+                      <td className="px-6 py-7 whitespace-nowrap text-sm text-gray-500">
+                          <BtcChart />
+                      </td>
                       <td className="px-6 py-7 whitespace-nowrap text-sm font-medium">
                         <a
                           href="#"
