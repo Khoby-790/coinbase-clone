@@ -27,7 +27,7 @@ const TableRatingSection = () => {
               <div className="shadow-lg overflow-hidden border-b border-gray-200">
                 <table className="min-w-full divide-y divide-gray-200">
                   <thead className="bg-white">
-                    <tr>
+                    <tr className="py-3">
                       <th
                         scope="col"
                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
@@ -78,14 +78,10 @@ const TableRatingSection = () => {
                         Bitcoin
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {person.title}
+                        GHS 280,930.47
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {person.email}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {person.role}
-                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"></td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"></td>
                       <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                         <a
                           href="#"
