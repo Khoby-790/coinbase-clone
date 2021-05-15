@@ -53,7 +53,40 @@ const TableRatingSection = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className={"bg-white"}>
+                    <tr className={"bg-white hover:bg-gray-100"}>
+                      <td className="px-6 py-7 whitespace-nowrap text-sm font-medium text-gray-900">
+                        {1}
+                      </td>
+                      <td className="px-6 py-7 w-96 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <div className="flex items-center flex-row">
+                          <img
+                            className="h-11 mr-4"
+                            src={BtcIcon}
+                            // height={null}
+                            alt="btc"
+                          />
+                          <span>Bitcoin</span>
+                        </div>
+                      </td>
+                      <td className="px-6 py-7 whitespace-nowrap text-xl">
+                        GHS 280,930.47
+                      </td>
+                      <td className="px-6 py-7 whitespace-nowrap text-xl text-red-500">
+                        -1.8%
+                      </td>
+                      <td className="px-6 py-7 whitespace-nowrap text-sm text-gray-500">
+                        <BtcChart />
+                      </td>
+                      <td className="px-6 py-7 whitespace-nowrap text-sm font-medium">
+                        <button
+                          href="#"
+                          className=" bg-green-500 p-2 text-white rounded-sm"
+                        >
+                          Edit
+                        </button>
+                      </td>
+                    </tr>
+                    <tr className={"bg-white hover:bg-gray-100"}>
                       <td className="px-6 py-7 whitespace-nowrap text-sm font-medium text-gray-900">
                         {1}
                       </td>
