@@ -77,7 +77,7 @@ const TableRatingSection = () => {
                       <td className="px-6 py-7 whitespace-nowrap text-xl">
                         GHS 280,930.47
                       </td>
-                      <td className="px-6 py-7 whitespace-nowrap text-sm text-red-500"></td>
+                      <td className="px-6 py-7 whitespace-nowrap text-xl text-red-500">-1.8%</td>
                       <td className="px-6 py-7 whitespace-nowrap text-sm text-gray-500"></td>
                       <td className="px-6 py-7 whitespace-nowrap text-sm font-medium">
                         <a
