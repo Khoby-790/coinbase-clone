@@ -40,6 +40,9 @@ const ThirdSection = () => {
             src={
               "https://static-assets.coinbase.com/earn/campaigns/ampleforth-governance-token/asset-logo.svg"
             }
+            name="Ampleforth Governance Token"
+            slug="FORTH"
+            gain={3}
           />
         </div>
       </div>
@@ -49,16 +52,18 @@ const ThirdSection = () => {
 
 export default ThirdSection;
 
-const HoverCard = ({ src }) => {
+const HoverCard = ({ src, name, slug, gain }) => {
   return (
     <div className="bg-white p-3 my-2 justify-between flex hover:shadow-md rounded-md">
       <div className="w-auto flex">
         <img src={src} alt="SKALE" className="mr-4"></img>
-        <span className="text-3xl mr-4">SKALE</span>
-        <span>SKL</span>
+        <span className="text-3xl mr-4">{name}</span>
+        <span>{slug}</span>
       </div>
       <div>
-        <span className="font-medium text-green-400 text-xl">Earn $3 SKL</span>
+        <span className="font-medium text-green-400 text-xl">
+          Earn ${gain} {slug}
+        </span>
       </div>
     </div>
   );
