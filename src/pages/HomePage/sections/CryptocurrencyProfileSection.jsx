@@ -1,10 +1,11 @@
 import React from 'react'
+import { Section } from '../../../components'
 
 const CryptocurrencyProfileSection = () => {
     return (
-        <div>
-            
-        </div>
+        <Section>
+            <div className="w-full flex flex-col"></div>
+        </Section>
     )
 }
 
