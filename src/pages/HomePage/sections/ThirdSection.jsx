@@ -37,6 +37,12 @@ const ThirdSection = () => {
             </div>
           </div>
           <HoverCard
+            src="https://static-assets.coinbase.com/earn/campaigns/skale/asset-logo.svg"
+            name="SKALE"
+            slug="SKL"
+            gain={3}
+          />
+          <HoverCard
             src={
               "https://static-assets.coinbase.com/earn/campaigns/ampleforth-governance-token/asset-logo.svg"
             }
@@ -60,7 +66,7 @@ const HoverCard = ({ src, name, slug, gain }) => {
         <span className="text-2xl mr-4">{name}</span>
         <span>{slug}</span>
       </div>
-      <div className="w-1/3">
+      <div className="w-1/3 flex justify-end">
         <span className="font-medium text-green-400 text-xl">
           Earn ${gain} {slug}
         </span>
