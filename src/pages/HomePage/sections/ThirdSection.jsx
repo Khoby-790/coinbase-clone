@@ -20,7 +20,7 @@ const ThirdSection = () => {
             Start earning
           </button>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 flex flex-col">
           <HoverCard
             src="https://static-assets.coinbase.com/earn/campaigns/skale/asset-logo.svg"
             name="SKALE"
