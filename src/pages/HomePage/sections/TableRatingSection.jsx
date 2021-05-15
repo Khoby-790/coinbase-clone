@@ -83,12 +83,12 @@ const TableRatingSection = () => {
                           <BtcChart />
                       </td>
                       <td className="px-6 py-7 whitespace-nowrap text-sm font-medium">
-                        <a
+                        <button
                           href="#"
-                          className="text-indigo-600 hover:text-indigo-900"
+                          className="text-indigo-600 bg-green-500 p-3 hover:text-indigo-900"
                         >
                           Edit
-                        </a>
+                        </button>
                       </td>
                     </tr>
                   </tbody>
