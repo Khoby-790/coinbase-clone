@@ -56,8 +56,8 @@ export default ThirdSection;
 
 const HoverCard = ({ src, name, slug, gain }) => {
   return (
-    <div className="bg-white p-3 my-2 justify-between flex hover:shadow-md rounded-md">
-      <div className="w-auto flex">
+    <div className="bg-white p-3 my-2 justify-between items-center flex hover:shadow-md rounded-md">
+      <div className="w-auto flex items-center">
         <img src={src} alt="SKALE" className="mr-4 h-12"></img>
         <span className="text-2xl mr-4">{name}</span>
         <span>{slug}</span>
