@@ -68,18 +68,18 @@ const TableRatingSection = () => {
                   </thead>
                   <tbody>
                     <tr className={"bg-white"}>
-                      <td className="px-6 py-10 whitespace-nowrap text-sm font-medium text-gray-900">
+                      <td className="px-6 py-7 whitespace-nowrap text-sm font-medium text-gray-900">
                         {1}
                       </td>
-                      <td className="px-6 py-10 w-96 whitespace-nowrap text-sm font-medium text-gray-900">
+                      <td className="px-6 py-7 w-96 whitespace-nowrap text-sm font-medium text-gray-900">
                         Bitcoin
                       </td>
-                      <td className="px-6 py-10 whitespace-nowrap text-sm text-gray-500">
+                      <td className="px-6 py-7 whitespace-nowrap text-xl">
                         GHS 280,930.47
                       </td>
-                      <td className="px-6 py-10 whitespace-nowrap text-sm text-gray-500"></td>
-                      <td className="px-6 py-10 whitespace-nowrap text-sm text-gray-500"></td>
-                      <td className="px-6 py-10 whitespace-nowrap text-sm font-medium">
+                      <td className="px-6 py-7 whitespace-nowrap text-sm text-red-500"></td>
+                      <td className="px-6 py-7 whitespace-nowrap text-sm text-gray-500"></td>
+                      <td className="px-6 py-7 whitespace-nowrap text-sm font-medium">
                         <a
                           href="#"
                           className="text-indigo-600 hover:text-indigo-900"
