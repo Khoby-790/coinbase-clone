@@ -5,8 +5,8 @@ import BtcIcon from "../../../assets/btcicon.png";
 
 const TableRatingSection = () => {
   return (
-    <div className="w-full  flex justify-center">
-      <div className="w-2/3">
+    <div className="w-full mb-10  flex justify-center">
+      <div className="w-4/5">
         <div className="flex flex-col">
           <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">

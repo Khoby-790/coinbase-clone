@@ -20,22 +20,6 @@ const ThirdSection = () => {
           </button>
         </div>
         <div className="flex-1">
-          <div className="bg-white p-3 my-2 justify-between flex hover:shadow-md rounded-md">
-            <div className="w-auto flex">
-              <img
-                src="https://static-assets.coinbase.com/earn/campaigns/skale/asset-logo.svg"
-                alt="SKALE"
-                className="mr-4 h-12"
-              ></img>
-              <span className="text-3xl mr-4">SKALE</span>
-              <span>SKL</span>
-            </div>
-            <div>
-              <span className="font-medium text-green-400 text-xl">
-                Earn $3 SKL
-              </span>
-            </div>
-          </div>
           <HoverCard
             src="https://static-assets.coinbase.com/earn/campaigns/skale/asset-logo.svg"
             name="SKALE"
