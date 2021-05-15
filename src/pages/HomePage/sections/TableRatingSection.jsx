@@ -1,23 +1,7 @@
-/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { BtcChart } from "../../../components";
-
-const people = [
-  {
-    name: "Jane Cooper",
-    title: "Regional Paradigm Technician",
-    role: "Admin",
-    email: "jane.cooper@example.com",
-  },
-  {
-    name: "Cody Fisher",
-    title: "Product Directives Officer",
-    role: "Owner",
-    email: "cody.fisher@example.com",
-  },
-  // More people...
-];
+import BtcIcon from '../../../assets/btcicon.png'
 
 const TableRatingSection = () => {
   return (
