@@ -7,6 +7,14 @@ const ThirdSection = () => {
         <div className="flex-1 flex flex-col justify-center">
           <h1 className="text-3xl font-medium">Earn up to $28 worth</h1>
           <h1 className="text-3xl font-medium">of crypto</h1>
+          <div className="my-3">
+            <p className="font-thin text-sm">
+              Discover how specific cryptocurrencies work — and
+            </p>
+            <p className="font-thin text-sm">
+              Discover how specific cryptocurrencies work — and
+            </p>
+          </div>
         </div>
         <div className="flex-1"></div>
       </div>
