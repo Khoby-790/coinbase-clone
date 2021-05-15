@@ -20,7 +20,7 @@ const ThirdSection = () => {
           </button>
         </div>
         <div className="flex-1">
-          <div className="bg-white p-3 justify-between flex hover:shadow-md rounded-md">
+          <div className="bg-white p-3 my-2 justify-between flex hover:shadow-md rounded-md">
             <div className="w-auto">
               <span className="text-3xl mr-4">SKALE</span>
               <span>SKL</span>
@@ -31,7 +31,7 @@ const ThirdSection = () => {
               </span>
             </div>
           </div>
-          <div className="bg-white p-3 justify-between flex hover:shadow-md rounded-md">
+          <div className="bg-white p-3 my-2 justify-between flex hover:shadow-md rounded-md">
             <div className="w-auto">
               <span className="text-3xl mr-4">Ampleforth Governance Token</span>
               <span>FORTH</span>
