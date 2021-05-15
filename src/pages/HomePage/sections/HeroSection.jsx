@@ -5,7 +5,7 @@ import { PhoneSvg, BtcSvg, ArrowSvg } from "../../../components";
 const HeroSection = () => {
   return (
     <div className="h-screen w-full flex flex-row">
-      <div className="flex-1 flex flex-col h-full pt-36 items-center px-20">
+      <div className="flex-1 flex flex-col h-full pt-11 justify-center px-20">
         <Link className="flex flex-row items-center">
           <BtcSvg />
           <span className="ml-2 text-blue-700 font-semibold text-lg mr-2">
@@ -13,7 +13,7 @@ const HeroSection = () => {
           </span>
           <ArrowSvg />
         </Link>
-        <div>
+        <div className="ml-2">
           <h1 className="text-6xl font-bold">Jump start</h1>
           <h1 className="text-6xl font-bold">your crypto</h1>
           <h1 className="text-6xl font-bold">portfolio</h1>
