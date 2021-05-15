@@ -13,6 +13,9 @@ const HeroSection = () => {
           </span>
           <ArrowSvg />
         </Link>
+        <div>
+
+        </div>
       </div>
       <div className="flex-1 h-full flex justify-center items-center pt-10">
         <PhoneSvg />
