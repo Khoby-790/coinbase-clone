@@ -34,12 +34,17 @@ const ThirdSection = () => {
             slug="FORTH"
             gain={3}
           />
-
           <HoverCard
             src="https://static-assets.coinbase.com/earn/campaigns/the-graph/asset-logo.svg"
             name="The Graph"
             slug="GRT"
             gain={3}
+          />
+          <HoverCard
+            src="https://static-assets.coinbase.com/earn/campaigns/the-graph/asset-logo.svg"
+            name="Stellar Lumens"
+            slug="XLM"
+            gain={10}
           />
         </div>
       </div>
